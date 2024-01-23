@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.4/19982
 // Filename: HotMove.ggsk
-// Generated 2024-01-23T19:32:27
+// Generated 2024-01-23T19:36:38
 
 function pano2vrSkin(player,base) {
 	var me=this;

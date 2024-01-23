@@ -14,7 +14,7 @@
 	"player": {
 		"js": "pano2vr_player.js"
 	},
-	"creationdate": "2024-01-23T15:32:27.292Z",
+	"creationdate": "2024-01-23T15:36:39.116Z",
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
