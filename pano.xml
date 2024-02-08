@@ -1,148 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1" appversion="7.0.4" apprev="19982">
   <panorama id="node1">
-    <input width="4593" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" height="4593" levelingroll="0" overlap="1">
-      <level width="4593" predecode="0" height="4593" preload="0"/>
-      <level width="2296" predecode="0" height="2296" preload="0"/>
-      <level width="1148" predecode="0" height="1148" preload="0"/>
-      <level width="574" predecode="0" height="574" preload="0"/>
-      <level width="287" predecode="1" height="287" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" height="4593" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltilesize="510" width="4593">
+      <level height="4593" preload="0" predecode="0" width="4593"/>
+      <level height="2296" preload="0" predecode="0" width="2296"/>
+      <level height="1148" preload="0" predecode="0" width="1148"/>
+      <level height="574" preload="0" predecode="0" width="574"/>
+      <level height="287" preload="1" predecode="1" width="287"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="118.921" tilt="-0.617932" fov="90.9744"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="-160" tilt="-32.9276" fovpixel="2"/>
-      <max fovstereographic="330" fovfisheye="360" pan="160" tilt="32.9276" fov="140"/>
+      <start pan="118.921" fov="90.9744" projection="4" tilt="-0.617932"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="-160" fovpixel="2" tilt="-32.9276"/>
+      <max pan="160" fovstereographic="330" fov="140" tilt="32.9276" fovfisheye="360"/>
     </view>
-    <userdata tags="360 Market" nodeid="node1" customnodeid="" description="" author="Idrak" copyright="" datetime="06.01.2024 12:40" comment="" title="Elturan" source="" info="" longitude="" heading="0" latitude="">
-      <mapcoords x="0.203247" x_floorplan_percent="18.5" mapid="FloorPlan01" y_floorplan_percent="82.5" y="-0.906372"/>
+    <userdata tags="360 Market" info="" heading="0" datetime="06.01.2024 12:40" source="" longitude="" latitude="" title="Elturan" nodeid="node1" description="" author="Idrak" copyright="" customnodeid="" comment="">
+      <mapcoords x_floorplan_percent="18.5" x="0.203247" y_floorplan_percent="82.5" y="-0.906372" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
-      <label background="1" width="180" border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" enabled="0" backgroundalpha="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20"/>
-      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot id="Point02" title="" pan="-218.75" target="_blank" tilt="-4.2" description="" skinid="ht_popup" url=""/>
-      <hotspot id="Point03" title="" pan="-233.62" target="33.6/-3.8/63.8" tilt="-8.57" description="" skinid="preview-image" url="{node2}"/>
-      <hotspot id="Point01" title="" pan="-286.53" target="_blank" tilt="-13.92" description="" skinid="ht_info_pop_up" url="https://www.flaticon.com/ru/free-animated-icon/info_6844415?k=1706019688147&amp;log-in=google"/>
-      <polyhotspot id="Poly01" borderalpha="1" target="_blank" description="asfasf&#xa;asfas&#xa;fasfas" url="https://www.youtube.com/" backgroundalpha="0.25098" title="Vahid" backgroundcolor="0x000000" bordercolor="0x000000">
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" height="20" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" backgroundalpha="1" enabled="0" textalpha="1" width="180"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-219.43" url="" title="" description="" id="Point02" target="_blank" tilt="-3.64" skinid="ht_product1"/>
+      <hotspot pan="-233.62" url="{node2}" title="" description="" id="Point03" target="33.6/-3.8/63.8" tilt="-8.57" skinid="preview-image"/>
+      <hotspot pan="-286.53" url="https://www.flaticon.com/ru/free-animated-icon/info_6844415?k=1706019688147&amp;log-in=google" title="" description="" id="Point01" target="_blank" tilt="-13.92" skinid="ht_info_pop_up"/>
+      <hotspot pan="-263.46" url="" title="" description="" id="Point04" target="_blank" tilt="7.47" skinid="test"/>
+      <hotspot pan="-88.39" url="" title="" description="" id="Point05" target="_blank" tilt="3.08" skinid="ht_fuel_filter_pl_270"/>
+      <hotspot pan="-99.35" url="" title="" description="" id="Point07" target="_blank" tilt="2.96" skinid="ht_fuel_filter_ut_6012"/>
+      <hotspot pan="-86" url="" title="" description="" id="Point06" target="_blank" tilt="-7.69" skinid="ht_air_filter_1041800109"/>
+      <hotspot pan="-99.55" url="" title="" description="" id="Point08" target="_blank" tilt="-7.42" skinid="ht_oil_filter_2105101200500"/>
+      <hotspot pan="-266.52" url="" title="" description="" id="Point09" target="_blank" tilt="30.58" skinid="ht_navbar"/>
+      <polyhotspot borderalpha="1" url="https://www.youtube.com/" id="Poly01" title="Vahid" description="asfasf&#xa;asfas&#xa;fasfas" backgroundcolor="0x000000" bordercolor="0x000000" backgroundalpha="0.25098" target="_blank">
         <polystring>-213.3/-3.49|-213.81/-3.33|-214.05/-3.13|-213.88/-2.83|-213.73/-2.62|-213.49/-2.35|-213.42/-2.16|-213.26/-2.1|-213.22/-1.87|-213.23/-1.7|-213.02/-1.69|-212.97/-1.57|-213.14/-1.58|-213.25/-1.52|-213.23/-1.37|-213.16/-1.27|-213.4/-1.26|-213.45/-1.16|-213.57/-1.05|-213.57/-0.94|-213.5/-0.83|-213.38/-0.71|-213.38/-0.57|-213.45/-0.46|-213.55/-0.35|-213.73/-0.3|-213.94/-0.4|-213.99/-0.53|-213.99/-0.7|-214.03/-0.73|-214.26/-0.71|-214.43/-0.66|-214.74/-0.63|-215.14/-0.64|-215.43/-0.77|-215.71/-0.99|-215.83/-1.23|-215.91/-1.4|-215.97/-1.53|-216.06/-1.63|-216.05/-1.71|-216.05/-1.78|-216.12/-1.85|-216.21/-1.96|-216.33/-2.15|-216.41/-2.29|-216.36/-2.36|-216.23/-2.43|-216.33/-2.41|-216.43/-2.51|-216.55/-2.66|-216.6/-2.74|-216.59/-4.33|-216.48/-3.88|-216.34/-3.49|-216.28/-3.35|-215.98/-3.45|-215.7/-3.49|-215.65/-3.44|-215.65/-3.36|-215.87/-3.24|-215.76/-3.21|-215.58/-3.29|-215.46/-3.37|-215.47/-3.52|-215.39/-3.66|-215.32/-3.75|-215.25/-3.84</polystring>
       </polyhotspot>
-      <polyhotspot id="NodeImage   1" title="Vahid" target="" description="" url="{node2}">
+      <polyhotspot url="{node2}" title="Vahid" description="" id="NodeImage   1" target="">
         <polystring>-225.6/-12.83|-246.16/-13.58|-246.22/-11.76|-246.33/-8.74|-244.86/-8.66|-240.36/-8.8|-240.03/-8.54|-240.08/-5.61|-227/-5.21|-226.53/-5.58|-225.33/-5.23</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" title="Seymur" target="" description="" url="{node4}">
+      <polyhotspot url="{node4}" title="Seymur" description="" id="Poly02" target="">
         <polystring>-308.1/-12.53|-316.05/-13.23|-318.7/-13.15|-318.95/-13.72|-318.92/-16.65|-318.39/-16.78|-318.41/-17.53|-307.42/-15.55|-307.85/-14.97|-307.92/-13.05</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="40" zoomoutpause="1" softedge="0" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" delay="none" zoomafterinfov="140" enabled="1" type="crossdissolve" zoomout="0" blendtime="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0" dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" contextprojections="0" rubberband="0" hideabout="0" zoomcentercursor="1" simulatemass="1"/>
+    <transition type="crossdissolve" delay="none" zoomoutpause="1" zoomafteroutfov="40" softedge="0" zoomin="0" zoomafterinfov="140" zoomfov="40" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control rubberband="0" zoomcentercursor="1" speedwheel="1" contextfullscreen="1" contextprojections="0" hideabout="0" invertcontrol="1" contextvr="1" simulatemass="1" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node2">
-    <input width="4558" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" height="4558" levelingroll="0" overlap="1">
-      <level width="4558" predecode="0" height="4558" preload="0"/>
-      <level width="2279" predecode="0" height="2279" preload="0"/>
-      <level width="1139" predecode="0" height="1139" preload="0"/>
-      <level width="569" predecode="0" height="569" preload="0"/>
-      <level width="284" predecode="1" height="284" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" height="4558" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltilesize="510" width="4558">
+      <level height="4558" preload="0" predecode="0" width="4558"/>
+      <level height="2279" preload="0" predecode="0" width="2279"/>
+      <level height="1139" preload="0" predecode="0" width="1139"/>
+      <level height="569" preload="0" predecode="0" width="569"/>
+      <level height="284" preload="1" predecode="1" width="284"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="40.2288" tilt="-2.45" fov="63.7832"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="-160" tilt="-33.1442" fovpixel="2"/>
-      <max fovstereographic="330" fovfisheye="360" pan="160" tilt="33.1442" fov="140"/>
+      <start pan="40.2288" fov="63.7832" projection="4" tilt="-2.45"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="-160" fovpixel="2" tilt="-33.1442"/>
+      <max pan="160" fovstereographic="330" fov="140" tilt="33.1442" fovfisheye="360"/>
     </view>
-    <userdata tags="360 Market" nodeid="node2" customnodeid="" description="" author="Idrak" copyright="" datetime="06.01.2024 12:42" comment="" title="Vahid" source="" info="" longitude="" heading="0" latitude="">
-      <mapcoords x="0.214233" x_floorplan_percent="19.5" mapid="FloorPlan01" y_floorplan_percent="21.5" y="-0.236206"/>
+    <userdata tags="360 Market" info="" heading="0" datetime="06.01.2024 12:42" source="" longitude="" latitude="" title="Vahid" nodeid="node2" description="" author="Idrak" copyright="" customnodeid="" comment="">
+      <mapcoords x_floorplan_percent="19.5" x="0.214233" y_floorplan_percent="21.5" y="-0.236206" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
-      <label background="1" width="180" border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" enabled="0" backgroundalpha="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20"/>
-      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <polyhotspot id="Poly01" title="Elturan" target="" description="" url="{node1}">
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" height="20" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" backgroundalpha="1" enabled="0" textalpha="1" width="180"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <polyhotspot url="{node1}" title="Elturan" description="" id="Poly01" target="">
         <polystring>-306.74/-9.32|-306.97/-8.82|-307.07/-8.43|-308.59/-8.6|-309.57/-6.98|-310.82/-6.99|-310.82/-7.22|-314.36/-7.3|-320.1/-7.28|-321.69/-11.57|-306.87/-9.97</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" title="Elvin" target="" description="" url="{node3}">
+      <polyhotspot url="{node3}" title="Elvin" description="" id="Poly02" target="">
         <polystring>-250.37/-10.56|-256.25/-9.87|-256.82/-10.04|-261.28/-9.4|-264.85/-8.7|-267.32/-8.33|-267.26/-8.53|-267.07/-8.73|-267.08/-8.9|-267.17/-9.15|-266.92/-9.46|-266.82/-9.91|-266.66/-10.28|-266.67/-10.81|-266.16/-10.72|-265.97/-10.89|-265.92/-11.2|-265.95/-11.48|-265.99/-11.81|-266/-12.23|-266.17/-12.42|-266.18/-12.87|-266.22/-13.42|-266.26/-13.7|-251.31/-15.76|-251.37/-14.23|-251.37/-11.82|-251.35/-11.62|-251.07/-11.39|-250.5/-10.98|-250.08/-10.61</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="40" zoomoutpause="1" softedge="0" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" delay="none" zoomafterinfov="140" enabled="1" type="crossdissolve" zoomout="0" blendtime="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0" dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" contextprojections="0" rubberband="0" hideabout="0" zoomcentercursor="1" simulatemass="1"/>
+    <transition type="crossdissolve" delay="none" zoomoutpause="1" zoomafteroutfov="40" softedge="0" zoomin="0" zoomafterinfov="140" zoomfov="40" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control rubberband="0" zoomcentercursor="1" speedwheel="1" contextfullscreen="1" contextprojections="0" hideabout="0" invertcontrol="1" contextvr="1" simulatemass="1" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node3">
-    <input width="4585" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" height="4585" levelingroll="0" overlap="1">
-      <level width="4585" predecode="0" height="4585" preload="0"/>
-      <level width="2292" predecode="0" height="2292" preload="0"/>
-      <level width="1146" predecode="0" height="1146" preload="0"/>
-      <level width="573" predecode="0" height="573" preload="0"/>
-      <level width="286" predecode="1" height="286" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" height="4585" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltilesize="510" width="4585">
+      <level height="4585" preload="0" predecode="0" width="4585"/>
+      <level height="2292" preload="0" predecode="0" width="2292"/>
+      <level height="1146" preload="0" predecode="0" width="1146"/>
+      <level height="573" preload="0" predecode="0" width="573"/>
+      <level height="286" preload="1" predecode="1" width="286"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="-2" tilt="0" fov="100"/>
-      <flyin projection="4" pan="1.6" tilt="-5.47" fov="60.67"/>
-      <min pan="-160" tilt="-32.9756" fovpixel="2"/>
-      <max fovstereographic="330" fovfisheye="360" pan="160" tilt="32.9756" fov="140"/>
+      <start pan="-2" fov="100" projection="4" tilt="0"/>
+      <flyin pan="1.6" fov="60.67" projection="4" tilt="-5.47"/>
+      <min pan="-160" fovpixel="2" tilt="-32.9756"/>
+      <max pan="160" fovstereographic="330" fov="140" tilt="32.9756" fovfisheye="360"/>
     </view>
-    <userdata tags="360 Market" nodeid="node3" customnodeid="" description="" author="Idrak" copyright="" datetime="06.01.2024 12:43" comment="" title="Elvin" source="" info="" longitude="" heading="0" latitude="">
-      <mapcoords x="0.829468" x_floorplan_percent="75.5" mapid="FloorPlan01" y_floorplan_percent="20" y="-0.219727"/>
+    <userdata tags="360 Market" info="" heading="0" datetime="06.01.2024 12:43" source="" longitude="" latitude="" title="Elvin" nodeid="node3" description="" author="Idrak" copyright="" customnodeid="" comment="">
+      <mapcoords x_floorplan_percent="75.5" x="0.829468" y_floorplan_percent="20" y="-0.219727" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
-      <label background="1" width="180" border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" enabled="0" backgroundalpha="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20"/>
-      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <polyhotspot id="Poly01" title="Vahid" target="" description="" url="{node2}">
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" height="20" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" backgroundalpha="1" enabled="0" textalpha="1" width="180"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <polyhotspot url="{node2}" title="Vahid" description="" id="Poly01" target="">
         <polystring>-348.3/-13.08|-348.69/-12.74|-349.45/-12.66|-0.08/-14.69|-0.02/-15.16|-11.71/-17.26|-11.38/-17.62|-11.03/-23.09|-346.83/-17.51|-347.06/-13.63</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" title="Seymur" target="" description="" url="{node4}">
+      <polyhotspot url="{node4}" title="Seymur" description="" id="Poly02" target="">
         <polystring>-291.69/-7.79|-298.66/-8.2|-298.67/-8.71|-300.23/-8.69|-300.69/-12.24|-289.13/-11.27|-289.14/-9.6|-289.89/-8.65|-290.56/-8.88|-290.79/-7.77</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="40" zoomoutpause="1" softedge="0" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" delay="none" zoomafterinfov="140" enabled="1" type="crossdissolve" zoomout="0" blendtime="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0" dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" contextprojections="0" rubberband="0" hideabout="0" zoomcentercursor="1" simulatemass="1"/>
+    <transition type="crossdissolve" delay="none" zoomoutpause="1" zoomafteroutfov="40" softedge="0" zoomin="0" zoomafterinfov="140" zoomfov="40" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control rubberband="0" zoomcentercursor="1" speedwheel="1" contextfullscreen="1" contextprojections="0" hideabout="0" invertcontrol="1" contextvr="1" simulatemass="1" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node4">
-    <input width="4587" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" height="4587" levelingroll="0" overlap="1">
-      <level width="4587" predecode="0" height="4587" preload="0"/>
-      <level width="2293" predecode="0" height="2293" preload="0"/>
-      <level width="1146" predecode="0" height="1146" preload="0"/>
-      <level width="573" predecode="0" height="573" preload="0"/>
-      <level width="286" predecode="1" height="286" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input overlap="1" height="4587" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltilesize="510" width="4587">
+      <level height="4587" preload="0" predecode="0" width="4587"/>
+      <level height="2293" preload="0" predecode="0" width="2293"/>
+      <level height="1146" preload="0" predecode="0" width="1146"/>
+      <level height="573" preload="0" predecode="0" width="573"/>
+      <level height="286" preload="1" predecode="1" width="286"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" pan="-116.244" tilt="-3.38485" fov="94.6257"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="-160" tilt="-32.9628" fovpixel="2"/>
-      <max fovstereographic="330" fovfisheye="360" pan="160" tilt="32.9628" fov="140"/>
+      <start pan="-116.244" fov="94.6257" projection="4" tilt="-3.38485"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="-160" fovpixel="2" tilt="-32.9628"/>
+      <max pan="160" fovstereographic="330" fov="140" tilt="32.9628" fovfisheye="360"/>
     </view>
-    <userdata tags="360 Market" nodeid="node4" customnodeid="" description="" author="Idrak" copyright="" datetime="06.01.2024 12:45" comment="" title="Seymur" source="" info="" longitude="" heading="0" latitude="">
-      <mapcoords x="0.85144" x_floorplan_percent="77.5" mapid="FloorPlan01" y_floorplan_percent="81.5" y="-0.895386"/>
+    <userdata tags="360 Market" info="" heading="0" datetime="06.01.2024 12:45" source="" longitude="" latitude="" title="Seymur" nodeid="node4" description="" author="Idrak" copyright="" customnodeid="" comment="">
+      <mapcoords x_floorplan_percent="77.5" x="0.85144" y_floorplan_percent="81.5" y="-0.895386" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
-      <label background="1" width="180" border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" enabled="0" backgroundalpha="1" textalpha="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20"/>
-      <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <polyhotspot id="Poly01" title="Elvin" target="" description="" url="{node3}">
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label border="1" borderalpha="1" wordwrap="1" textcolor="0x000000" height="20" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderradius="1" backgroundalpha="1" enabled="0" textalpha="1" width="180"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <polyhotspot url="{node3}" title="Elvin" description="" id="Poly01" target="">
         <polystring>-200.39/-9.43|-209.25/-8.99|-209.29/-9.43|-210.3/-9.37|-210.36/-11.57|-210.41/-11.95|-211/-11.77|-211.08/-13.19|-200.23/-13.37</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" title="Elturan" target="" description="" url="{node1}">
+      <polyhotspot url="{node1}" title="Elturan" description="" id="Poly02" target="">
         <polystring>-104.32/-15.53|-118.67/-15.98|-119.03/-16.28|-118.9/-20.33|-119.19/-21.07|-118.99/-21.96|-103.95/-21.03|-104.16/-16.39</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="40" zoomoutpause="1" softedge="0" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" delay="none" zoomafterinfov="140" enabled="1" type="crossdissolve" zoomout="0" blendtime="1" zoomin="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0" dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1" contextprojections="0" rubberband="0" hideabout="0" zoomcentercursor="1" simulatemass="1"/>
+    <transition type="crossdissolve" delay="none" zoomoutpause="1" zoomafteroutfov="40" softedge="0" zoomin="0" zoomafterinfov="140" zoomfov="40" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control rubberband="0" zoomcentercursor="1" speedwheel="1" contextfullscreen="1" contextprojections="0" hideabout="0" invertcontrol="1" contextvr="1" simulatemass="1" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0" lockedmouse="0"/>
   </panorama>
   <masternode>
-    <userdata comment="" tags="" title="View 2" description="" author="" copyright=""/>
+    <userdata tags="" title="Hellper" description="" author="" copyright="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map index="0" id="FloorPlan01" width="200" tileformat="jpg" type="file" title="" bgcolor="rgba(255, 255, 255, 1)" transparent="0" crispedges="0" height="200" zoomlevels="1" floorplannorth="346"/>
+  <map type="file" crispedges="0" index="0" bgcolor="rgba(255, 255, 255, 1)" height="200" id="FloorPlan01" tileformat="jpg" transparent="0" zoomlevels="1" floorplannorth="346" title="" width="200"/>
 </tour>

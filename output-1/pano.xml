@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="19982" appversion="7.0.4" start="node1">
+  <panorama id="node1">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4593" overlap="1" levelingroll="0" levelingpitch="0" levelbias="0.400" width="4593" leveltilesize="510">
+      <level predecode="0" preload="0" height="4593" width="4593"/>
+      <level predecode="0" preload="0" height="2296" width="2296"/>
+      <level predecode="0" preload="0" height="1148" width="1148"/>
+      <level predecode="0" preload="0" height="574" width="574"/>
+      <level predecode="1" preload="1" height="287" width="287"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" pan="122.59" fov="63.78" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-32.9276" pan="-160" fovpixel="2"/>
+      <max tilt="32.9276" pan="160" fovfisheye="360" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata heading="0" info="" tags="360 Market" customnodeid="" title="Elturan" source="" longitude="" latitude="" datetime="06.01.2024 12:40" author="Idrak" comment="" description="" nodeid="node1" copyright="">
+      <mapcoords x_floorplan_percent="18.5" x="0.203247" mapid="FloorPlan01" y="-0.906372" y_floorplan_percent="82.5"/>
+    </userdata>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" background="1" height="20" backgroundalpha="1" enabled="1" borderradius="1" border="1" wordwrap="1" borderalpha="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot tilt="-15.39" skinid="ht_node" url="{node4}" pan="-314.54" description="" title="" target="-124.6/-8.4/63.8" id="Point01"/>
+      <hotspot tilt="-4.2" skinid="ht_popup" url="" pan="-218.75" description="" title="" target="_blank" id="Point02"/>
+      <polyhotspot bordercolor="0x0000ff" title="Vahid" target="_blank" backgroundalpha="0.25098" url="www.youtube.com" description="asfasf&#xa;asfas&#xa;fasfas" id="Poly01" borderalpha="1" backgroundcolor="0x0000ff">
+        <polystring>-213.3/-3.49|-213.81/-3.33|-214.05/-3.13|-213.88/-2.83|-213.73/-2.62|-213.49/-2.35|-213.42/-2.16|-213.26/-2.1|-213.22/-1.87|-213.23/-1.7|-213.02/-1.69|-212.97/-1.57|-213.14/-1.58|-213.25/-1.52|-213.23/-1.37|-213.16/-1.27|-213.4/-1.26|-213.45/-1.16|-213.57/-1.05|-213.57/-0.94|-213.5/-0.83|-213.38/-0.71|-213.38/-0.57|-213.45/-0.46|-213.55/-0.35|-213.73/-0.3|-213.94/-0.4|-213.99/-0.53|-213.99/-0.7|-214.03/-0.73|-214.26/-0.71|-214.43/-0.66|-214.74/-0.63|-215.14/-0.64|-215.55/-0.83|-215.75/-1.04|-215.83/-1.23|-215.91/-1.4|-215.97/-1.53|-216.06/-1.63|-216.05/-1.71|-216.05/-1.78|-216.12/-1.85|-216.21/-1.96|-216.33/-2.15|-216.41/-2.29|-216.36/-2.36|-216.23/-2.43|-216.33/-2.41|-216.43/-2.51|-216.55/-2.66|-216.6/-2.74|-216.59/-4.33|-216.48/-3.88|-216.34/-3.49|-216.28/-3.35|-215.98/-3.45|-215.7/-3.49|-215.65/-3.44|-215.65/-3.36|-215.87/-3.24|-215.76/-3.21|-215.58/-3.29|-215.46/-3.37|-215.47/-3.52|-215.39/-3.66|-215.32/-3.75|-215.25/-3.84</polystring>
+      </polyhotspot>
+      <polyhotspot url="{node2}" description="" title="Vahid" target="" id="View 2">
+        <polystring>-225.6/-12.83|-246.16/-13.58|-246.22/-11.76|-246.33/-8.74|-244.86/-8.66|-240.36/-8.8|-240.03/-8.54|-240.08/-5.61|-227/-5.21|-226.53/-5.58|-225.33/-5.23</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image clickmode="1" popbackmode="0" roty="6.490" handcursor="1" rotx="-55.150" height="800" tilt="5.120" pan="142.200" rotz="-0.100" fov="2.720" hidepinned="1" id="Element01" stretch="1.189" width="800">
+        <source url="media/1668075886764.jpg"/>
+      </image>
+    </media>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" softedge="0" zoomoutpause="1" zoomout="0" zoomspeed="2" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomfov="40" zoomafteroutfov="40"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" simulatemass="1" speedwheel="1" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextvr="1" lockedwheel="0" sensitivity="8" hideabout="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4558" overlap="1" levelingroll="0" levelingpitch="0" levelbias="0.400" width="4558" leveltilesize="510">
+      <level predecode="0" preload="0" height="4558" width="4558"/>
+      <level predecode="0" preload="0" height="2279" width="2279"/>
+      <level predecode="0" preload="0" height="1139" width="1139"/>
+      <level predecode="0" preload="0" height="569" width="569"/>
+      <level predecode="1" preload="1" height="284" width="284"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="-2.45" pan="40.2288" fov="63.7832" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-33.1442" pan="-160" fovpixel="2"/>
+      <max tilt="33.1442" pan="160" fovfisheye="360" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata heading="0" info="" tags="360 Market" customnodeid="" title="Vahid" source="" longitude="" latitude="" datetime="06.01.2024 12:42" author="Idrak" comment="" description="" nodeid="node2" copyright="">
+      <mapcoords x_floorplan_percent="19.5" x="0.214233" mapid="FloorPlan01" y="-0.236206" y_floorplan_percent="21.5"/>
+    </userdata>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" background="1" height="20" backgroundalpha="1" enabled="1" borderradius="1" border="1" wordwrap="1" borderalpha="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot tilt="-13.34" skinid="ht_node" url="{node3}" pan="-254.37" description="" title="" target="29.2/-2.1/63.8" id="Point01"/>
+      <hotspot tilt="-9.17" skinid="ht_node" url="{node1}" pan="-314.21" description="" title="" target="122.6/0.0/63.8" id="Point02"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" softedge="0" zoomoutpause="1" zoomout="0" zoomspeed="2" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomfov="40" zoomafteroutfov="40"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" simulatemass="1" speedwheel="1" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextvr="1" lockedwheel="0" sensitivity="8" hideabout="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4585" overlap="1" levelingroll="0" levelingpitch="0" levelbias="0.400" width="4585" leveltilesize="510">
+      <level predecode="0" preload="0" height="4585" width="4585"/>
+      <level predecode="0" preload="0" height="2292" width="2292"/>
+      <level predecode="0" preload="0" height="1146" width="1146"/>
+      <level predecode="0" preload="0" height="573" width="573"/>
+      <level predecode="1" preload="1" height="286" width="286"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="-3.11621" pan="7.70279" fov="63.7832" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-32.9756" pan="-160" fovpixel="2"/>
+      <max tilt="32.9756" pan="160" fovfisheye="360" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata heading="0" info="" tags="360 Market" customnodeid="" title="Elvin" source="" longitude="" latitude="" datetime="06.01.2024 12:43" author="Idrak" comment="" description="" nodeid="node3" copyright="">
+      <mapcoords x_floorplan_percent="75.5" x="0.829468" mapid="FloorPlan01" y="-0.219727" y_floorplan_percent="20"/>
+    </userdata>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" background="1" height="20" backgroundalpha="1" enabled="1" borderradius="1" border="1" wordwrap="1" borderalpha="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot tilt="-8.71" skinid="ht_node" url="{node4}" pan="-295.1" description="" title="" target="-120.6/-5.4/63.8" id="Point01"/>
+      <hotspot tilt="-18.06" skinid="ht_node" url="{node2}" pan="-357.92" description="" title="" target="48.7/-2.8/43.1" id="Point02"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" softedge="0" zoomoutpause="1" zoomout="0" zoomspeed="2" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomfov="40" zoomafteroutfov="40"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" simulatemass="1" speedwheel="1" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextvr="1" lockedwheel="0" sensitivity="8" hideabout="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4587" overlap="1" levelingroll="0" levelingpitch="0" levelbias="0.400" width="4587" leveltilesize="510">
+      <level predecode="0" preload="0" height="4587" width="4587"/>
+      <level predecode="0" preload="0" height="2293" width="2293"/>
+      <level predecode="0" preload="0" height="1146" width="1146"/>
+      <level predecode="0" preload="0" height="573" width="573"/>
+      <level predecode="1" preload="1" height="286" width="286"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="-5.36933" pan="-120.624" fov="63.7832" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-32.9628" pan="-160" fovpixel="2"/>
+      <max tilt="32.9628" pan="160" fovfisheye="360" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata heading="0" info="" tags="360 Market" customnodeid="" title="Seymur" source="" longitude="" latitude="" datetime="06.01.2024 12:45" author="Idrak" comment="" description="" nodeid="node4" copyright="">
+      <mapcoords x_floorplan_percent="77.5" x="0.85144" mapid="FloorPlan01" y="-0.895386" y_floorplan_percent="81.5"/>
+    </userdata>
+    <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
+      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" background="1" height="20" backgroundalpha="1" enabled="1" borderradius="1" border="1" wordwrap="1" borderalpha="1" width="180" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot tilt="-18.03" skinid="ht_node" url="{node1}" pan="-110.4" description="" title="" target="122.6/2.1/63.8" id="Point01"/>
+      <hotspot tilt="-12.44" skinid="ht_node" url="{node3}" pan="-204.73" description="" title="" target="45.2/-0.3/63.8" id="Point02"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendcolor="0x000000" blendtime="1" softedge="0" zoomoutpause="1" zoomout="0" zoomspeed="2" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomfov="40" zoomafteroutfov="40"/>
+    <animation animsequence="Animation01" clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" simulatemass="1" speedwheel="1" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" contextvr="1" lockedwheel="0" sensitivity="8" hideabout="0"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" comment="" tags="" description="" title="View 2" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+  <map bgcolor="rgba(255, 255, 255, 1)" title="" index="0" zoomlevels="1" tileformat="jpg" height="200" floorplannorth="346" transparent="0" type="file" id="FloorPlan01" width="200" crispedges="0"/>
+</tour>
